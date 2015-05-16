@@ -6,4 +6,14 @@
     <item android:id="@+id/action_map"
         android:title="@string/action_map"
         app:showAsAction = "never"/>
+    <item android:id = "@+id/action_gallery"
+        android:title = "@string/action_gallery"
+        app:showAsAction = "never"/>
+
+    <item android:id = "@+id/action_browser"
+        android:title = "@string/action_browser"
+        app:showAsAction = "never"/>
+    <item android:id = "@+id/action_camera"
+        android:title = "@string/action_camera"
+        app:showAsAction = "never"/>
 </menu>
