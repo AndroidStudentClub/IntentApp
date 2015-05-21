@@ -33,6 +33,11 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings){
+            Intent intent = new Intent(this,Settings.class);
+            startActivity(intent);
+        }
+
         if (id == R.id.action_map) {
             openPrefferedLocationMap();
             return true;
@@ -68,7 +73,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     private void openBrowser(){
-        Uri url = Uri.parse("http://www.google.com");
+        Uri url = Uri.parse("http://www.google.com/");
         Intent intent = new Intent(Intent.ACTION_VIEW, url);
 
         if (intent.resolveActivity(getPackageManager()) != null){

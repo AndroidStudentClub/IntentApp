@@ -7,4 +7,5 @@
     <string name = "action_gallery"> Gallery</string>
     <string name = "action_browser"> Browser</string>
     <string name = "action_camera"> Camera</string>
+    <string name="title_activity_settings">Settings</string>
 </resources>
